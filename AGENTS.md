@@ -36,6 +36,12 @@ Capture what matters. Decisions, context, things to remember. Skip the secrets u
 - This is your curated memory — the distilled essence, not raw logs
 - Over time, review your daily files and update MEMORY.md with what's worth keeping
 
+### 📚 Learnings 经验共享原则
+
+- **多 Agent 共享经验是追加写入，不是覆盖**
+- 写入 `.learnings/` 时使用 `edit` 追加内容，不能用 `write` 覆盖
+- 这是铁律，覆盖会导致其他 agent 的经验丢失
+
 ### 📝 Write It Down - No "Mental Notes"!
 
 - **Memory is limited** — if you want to remember something, WRITE IT TO A FILE
