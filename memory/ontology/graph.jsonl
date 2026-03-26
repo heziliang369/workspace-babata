@@ -1,0 +1,62 @@
+{"op":"create","entity":{"id":"person_001","type":"Person","properties":{"name":"阿梁"}}}
+{"op":"create","entity":{"id":"proj_company","type":"Project","properties":{"name":"Company"}}}
+{"op":"create","entity":{"id":"proj_waimai","type":"Project","properties":{"name":"外卖"}}}
+{"op":"create","entity":{"id":"proj_zhihui","type":"Project","properties":{"name":"知识库"}}}
+{"op":"create","entity":{"id":"proj_root","type":"Project","properties":{"name":"根目录"}}}
+{"op":"create","entity":{"id":"doc_001","type":"Document","properties":{"title":"Info","path":"/Users/aaron/Documents/Obsidian Vault/Company/Info.md","summary":""}}}
+{"op":"relate","from":"doc_001","rel":"belongs_to","to":"proj_company"}
+{"op":"relate","from":"doc_001","rel":"authored_by","to":"person_001"}
+{"op":"create","entity":{"id":"doc_002","type":"Document","properties":{"title":"外卖运营智能体","path":"/Users/aaron/Documents/Obsidian Vault/外卖/外卖运营智能体.md","summary":""}}}
+{"op":"relate","from":"doc_002","rel":"belongs_to","to":"proj_waimai"}
+{"op":"relate","from":"doc_002","rel":"authored_by","to":"person_001"}
+{"op":"create","entity":{"id":"doc_003","type":"Document","properties":{"title":"点外卖技能灵感","path":"/Users/aaron/Documents/Obsidian Vault/外卖/点外卖技能灵感.md","summary":""}}}
+{"op":"relate","from":"doc_003","rel":"belongs_to","to":"proj_waimai"}
+{"op":"relate","from":"doc_003","rel":"authored_by","to":"person_001"}
+{"op":"create","entity":{"id":"doc_004","type":"Document","properties":{"title":"AI快速盈利方案（低成本）","path":"/Users/aaron/Documents/Obsidian Vault/知识库/AI快速盈利方案（低成本）.md","summary":""}}}
+{"op":"relate","from":"doc_004","rel":"belongs_to","to":"proj_zhihui"}
+{"op":"relate","from":"doc_004","rel":"authored_by","to":"person_001"}
+{"op":"create","entity":{"id":"doc_005","type":"Document","properties":{"title":"OCP业务筛选报告","path":"/Users/aaron/Documents/Obsidian Vault/知识库/OCP业务筛选报告.md","summary":""}}}
+{"op":"relate","from":"doc_005","rel":"belongs_to","to":"proj_zhihui"}
+{"op":"relate","from":"doc_005","rel":"authored_by","to":"person_001"}
+{"op":"create","entity":{"id":"doc_006","type":"Document","properties":{"title":"Obsidian和ontology使用教程","path":"/Users/aaron/Documents/Obsidian Vault/知识库/Obsidian和ontology使用教程.md","summary":""}}}
+{"op":"relate","from":"doc_006","rel":"belongs_to","to":"proj_zhihui"}
+{"op":"relate","from":"doc_006","rel":"authored_by","to":"person_001"}
+{"op":"create","entity":{"id":"doc_007","type":"Document","properties":{"title":"Ontology和Obsidian的区别在哪","path":"/Users/aaron/Documents/Obsidian Vault/知识库/Ontology和Obsidian的区别在哪.md","summary":""}}}
+{"op":"relate","from":"doc_007","rel":"belongs_to","to":"proj_zhihui"}
+{"op":"relate","from":"doc_007","rel":"authored_by","to":"person_001"}
+{"op":"create","entity":{"id":"doc_008","type":"Document","properties":{"title":"Ontology是什么？","path":"/Users/aaron/Documents/Obsidian Vault/知识库/Ontology是什么？.md","summary":""}}}
+{"op":"relate","from":"doc_008","rel":"belongs_to","to":"proj_zhihui"}
+{"op":"relate","from":"doc_008","rel":"authored_by","to":"person_001"}
+{"op":"create","entity":{"id":"doc_009","type":"Document","properties":{"title":"为什么说Obsidian和ontology是好搭档","path":"/Users/aaron/Documents/Obsidian Vault/知识库/为什么说Obsidian和ontology是好搭档.md","summary":""}}}
+{"op":"relate","from":"doc_009","rel":"belongs_to","to":"proj_zhihui"}
+{"op":"relate","from":"doc_009","rel":"authored_by","to":"person_001"}
+{"op":"create","entity":{"id":"doc_010","type":"Document","properties":{"title":"创业方向","path":"/Users/aaron/Documents/Obsidian Vault/知识库/创业方向.md","summary":""}}}
+{"op":"relate","from":"doc_010","rel":"belongs_to","to":"proj_zhihui"}
+{"op":"relate","from":"doc_010","rel":"authored_by","to":"person_001"}
+{"op":"create","entity":{"id":"doc_011","type":"Document","properties":{"title":"图谱","path":"/Users/aaron/Documents/Obsidian Vault/知识库/图谱.canvas","summary":""}}}
+{"op":"relate","from":"doc_011","rel":"belongs_to","to":"proj_zhihui"}
+{"op":"relate","from":"doc_011","rel":"authored_by","to":"person_001"}
+{"op":"create","entity":{"id":"doc_012","type":"Document","properties":{"title":"灵感","path":"/Users/aaron/Documents/Obsidian Vault/知识库/灵感.md","summary":""}}}
+{"op":"relate","from":"doc_012","rel":"belongs_to","to":"proj_zhihui"}
+{"op":"relate","from":"doc_012","rel":"authored_by","to":"person_001"}
+{"op":"create","entity":{"id":"doc_013","type":"Document","properties":{"title":"创业合集","path":"/Users/aaron/Documents/Obsidian Vault/创业合集.md","summary":""}}}
+{"op":"relate","from":"doc_013","rel":"belongs_to","to":"proj_root"}
+{"op":"relate","from":"doc_013","rel":"authored_by","to":"person_001"}
+{"op":"create","entity":{"id":"doc_014","type":"Document","properties":{"title":"财务规划","path":"/Users/aaron/Documents/Obsidian Vault/财务规划.md","summary":""}}}
+{"op":"relate","from":"doc_014","rel":"belongs_to","to":"proj_root"}
+{"op":"relate","from":"doc_014","rel":"authored_by","to":"person_001"}
+{"op":"create","entity":{"id":"idea_001","type":"Idea","properties":{"title":"抖音/微信小游戏","summary":"通过游戏内广告变现，如观看广告解锁道具或复活。"}}}
+{"op":"relate","from":"idea_001","rel":"document_of","to":"doc_013"}
+{"op":"create","entity":{"id":"idea_002","type":"Idea","properties":{"title":"AI 创作音乐","summary":"利用 AI 生成音乐并发布获取版权费。"}}}
+{"op":"relate","from":"idea_002","rel":"document_of","to":"doc_013"}
+{"op":"create","entity":{"id":"idea_003","type":"Idea","properties":{"title":"AI 创作动漫","summary":"生成动漫内容并通过抖音等平台赚取流量费和广告收入。"}}}
+{"op":"relate","from":"idea_003","rel":"document_of","to":"doc_013"}
+{"op":"create","entity":{"id":"idea_004","type":"Idea","properties":{"title":"网上接单任务","summary":"在 GitHub 等平台接有偿任务，完成后获取报酬。"}}}
+{"op":"rel":"relate","from":"idea_004","rel":"document_of","to":"doc_013"}
+{"op":"create","entity":{"id":"idea_005","type":"Idea","properties":{"title":"量化理财","summary":"利用算法进行自动化投资与资产管理。"}}}
+{"op":"rel":"relate","from":"idea_005","rel":"document_of","to":"doc_013"}
+{"op":"create","entity":{"id":"idea_006","type":"Idea","properties":{"title":"智能硬件/软件产品","summary":"如智能座垫检测久坐提醒或 AI 虚拟伴侣，直接销售获利。"}}}
+{"op":"rel":"relate","from":"idea_006","rel":"document_of","to":"doc_013"}
+{"op":"create","entity":{"id":"idea_007","type":"Idea","properties":{"title":"售卖学习教程","summary":"提供如小龙虾玩法等教程，付费获取知识。"}}}
+{"op":"rel":"relate","from":"idea_007","rel":"document_of","to":"doc_013"}
+
