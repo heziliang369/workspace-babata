@@ -5,7 +5,7 @@ _Learn about the person you're helping. Update this as you go._
 - **Name:** Aaron
 - **What to call them:** 阿梁
 - **Pronouns:** _(optional)_
-- **Timezone:**
+- **Timezone:** Chengdu
 - **Notes:**
 
 ## Context
